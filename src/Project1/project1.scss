@@ -1,0 +1,200 @@
+:root {
+  --colorOne: #d5ecf4;
+  --colorTwo: #e5efd9;
+  --colorThree: #fcf8c0;
+  --colorFour: #ebebeb;
+  --colorFive: #f4c5c3;
+  --colorSix: #e5efd8;
+  --colorSeven: #fcf8c0;
+}
+  .project1__container{
+    width: 1280px;
+    header{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;
+      margin: 10px 0 10px 0;
+  
+      h1{
+        flex:1;
+      }
+      .header__column{
+        flex:1;
+        display:flex;
+        flex-direction:row;
+      }
+      .header__nav{
+        flex:1;
+      }
+  
+      ul, li {
+        list-style: none;
+      }
+      span {
+        color:#777777;
+        text-decoration: underline;
+        margin-bottom: 10px;
+        display:block;
+        margin-bottom:10px;
+      }
+    }
+  
+    
+    main{
+      .small-flex{
+        margin: 5px 5px 5px 5px;
+        flex: 1;
+      }
+      .big-flex {
+        margin: 5px 5px 5px 5px;
+        flex: 2;
+      }
+      .main-line{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height:540px;
+      }  
+  
+      .main--firstline{
+  
+        .firstline__text {
+          // margin-right: 10px;
+          background-color: var(--colorOne);
+        }
+  
+        .firstline__img {
+          background-image: url("https://section.kinglivingcomau.testarc.com.au/pub/media/catalog/category/department_ourcollection_chairsarmchairs.jpg");
+          background-size:cover;
+        }
+        
+      }
+  
+      .main--secondline{
+        .secondline__block{
+  
+          display:flex;
+          justify-content: space-between;
+          flex-direction: column;
+          
+  
+          &-text1{
+            flex: 1;
+            background-color: var(--colorTwo);
+            margin-bottom: 5px;
+          }
+          &-text2{
+            flex: 1;
+            background-color: var(--colorFour);
+            margin-top: 5px;
+          }
+          &-text3{
+            flex: 1;
+            background-color: var(--colorThree);
+            margin-bottom: 5px;
+          }
+          &-text4{
+            flex: 1;
+            background-color: var(--colorFour);
+            margin-top: 5px;
+          }
+  
+        }
+        .secondline__img{
+          background-image: url("http://essentialhome.eu/inspirations/wp-content/uploads/2017/05/7-Most-Unique-Furniture-Designs-Of-All-Time-1.jpg");
+          background-size:cover;
+        }
+      }
+      
+      .main--thirdline{
+        
+        .thirdline__text{
+          background-color: var(--colorThree);
+        }
+        .thirdline__img {
+          background-image: url("https://static.wixstatic.com/media/d50034_9f0256aa8a7e469f99e865cf6da45ba8~mv2.jpg/v1/fill/w_1024,h_1024,al_c,q_85,usm_0.66_1.00_0.01/d50034_9f0256aa8a7e469f99e865cf6da45ba8~mv2.webp");
+          background-size:cover;
+        }
+      }
+      
+      .main--fourthline{
+        .fourthline__img {        
+          background-image: url("https://www.lago.it/wp-content/uploads/2015/11/1.jpg");
+          background-size:cover;
+        }
+        .fourthline__block{
+  
+          display:flex;
+          justify-content: space-between;
+          flex-direction: column;
+        
+          &-text1{
+            flex:1;
+            margin-bottom: 5px;
+            background-image: url("http://cdn.home-designing.com/wp-content/uploads/2017/06/bronze-look-geometric-end-table-plans-1024x870.jpg");
+            background-size:cover;
+          }
+          &-text2{
+            flex:1;
+            margin-bottom: 5px;
+            background-image: url("http://songkwangchan.photography/images/items/127/thum/lAK9cm5NeQFta9b.jpg");
+            background-size:cover;
+          }
+        }
+      }
+      .main--fifthline{
+        .fifthline__img {
+          background-color: var(--colorFive);
+          background-size:cover;
+        }
+        .fifthline__block{
+  
+          display:flex;
+          justify-content: space-between;
+          flex-direction: column;
+        
+          &-img{
+            flex: 1;
+            background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/2f065c63945565.5ac251cfedb30.jpg");
+            
+            background-position: center;
+            background-size:cover;
+            margin-bottom: 5px;
+          }
+          &-text{
+            flex: 1;
+            background-color: var(--colorThree);
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+    
+    footer{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;
+      margin: 10px 0 10px 0;
+      color:#777777;
+      .give_margin{
+        margin-right: 20px;
+      }
+      .footer__column{
+        flex:1;
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-end;
+      }
+  
+      ul, li {
+        list-style: none;
+      }
+    }
+  
+    
+  
+  
+  }
+
+  
+  
